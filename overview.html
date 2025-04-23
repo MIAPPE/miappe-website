@@ -4,41 +4,51 @@ title: Overview
 ---
 <h3>Overview</h3>
 
-The Minimum Information About Plant Phenotyping Experiments (MIAPPE) is a data standard designed to harmonize the description of experimental and computed data 
-to enable its sharing, publication and reuse. 
-It is designed to handle datasets of crops and woody plant grown in greenhouses, single fields or experimental networks overs one to several years.
+The Minimum Information About Plant Phenotyping Experiments (MIAPPE) is a data standard designed to harmonize the description
+of experimental and computed data to enable its sharing, publication and reuse. 
+It is designed to handle datasets of crops and woody plant grown in greenhouses, single fields or experimental networks overs
+one to several years.
 
 
-The main elements of a MIAPPE datasets are shown on the figure below and consist of the Dataset itself (or Investigation following ISA), the Study, the Biological Material and the Observation Variables.
+The main elements of a MIAPPE datasets are shown on the figure below and consist of the Dataset itself (or Investigation
+following ISA), the Study, the Biological Material and the Observation Variables.
 </br>
 <img src="//miappe.github.io//miappe-website/static/MIAPPE-OVERVIEW-nutshell.png" />
 </br>
-See the latest <a href="https://github.com/MIAPPE/MIAPPE">MIAPPE specifications</a> (<a href="https://github.com/MIAPPE/MIAPPE/blob/master/MIAPPE_Checklist_Data_Model.pdf">PDF format</a>
-        <a href="https://github.com/MIAPPE/MIAPPE/tree/master/Templates">data exchange templates </a>) for a full description of the standard.
+See the latest <a href="https://github.com/MIAPPE/MIAPPE">MIAPPE specifications</a>
+(<a href="https://github.com/MIAPPE/MIAPPE/blob/master/MIAPPE_Checklist_Data_Model.pdf">PDF format</a>
+<a href="https://github.com/MIAPPE/MIAPPE/tree/master/Templates">data exchange templates </a>) for a full description
+of the standard.
 
 <h4>Dataset (Investigation)</h4>
 It contains the basic information shared by any type of datasets: title, authors list, description, a DOI for citability, etc....
 
 <h4>Studies</h4>
-A MIAPPE dataset contains one to many Studies, each studies being one experiment in one location over one to several years. This multiannual capabilities allows to handle perenial
-plants such as trees or grape. A Study can also be virtual to hold the result of a computation voer one to several experimental studies.
-It contains also the geographical coordinates of the Study.
+A MIAPPE dataset contains one to many Studies, each studies being one experiment in one location over one to several years.
+This multiannual capabilities allows to handle perenial plants such as trees or grape. A Study can also be virtual to hold the
+result of a computation voer one to several experimental studies. It contains also the geographical coordinates of the Study.
 
 <h4>Biological Material</h4>
 This is one of the two most essential description to enable FAIR data sharing. 
-It is the biological material being studied (e.g. plants grown from a certain bag or seed, or plants grown in a particular field) including identification and traceability. The original source of that material (e.g., the seeds or the original plant cloned) is called the material source, which, when held by a material repository, should have its stock identified.
+It is the biological material being studied (e.g. plants grown from a certain bag or seed, or plants grown in a particular
+field) including identification and traceability. The original source of that material (e.g., the seeds or the original plant
+cloned) is called the material source, which, when held by a material repository, should have its stock identified.
 
 <h4>Observed Variable</h4>
-An observed variable describes how a measurement has been made. It typically takes the form of a measured characteristic of the observation unit (plant or environmental trait), associated to the method and unit of measurement. Multiple variables with the same combination of trait, method and scale can be used in association with different plant parts (leaf 1, leaf 2), 
+An observed variable describes how a measurement has been made. It typically takes the form of a measured characteristic of
+the observation unit (plant or environmental trait), associated to the method and unit of measurement. Multiple variables with
+the same combination of trait, method and scale can be used in association with different plant parts (leaf 1, leaf 2), 
 when this distinction is necessary for observations referring to different parts of the same observation unit.
 
 <h3>Implementations</h3>
 MIAPPE is a pure specification that has been implemented in several systems and tools:
 <ul>
-        <li>MIAPPE is a key element in the <a href="https://rdmkit.elixir-europe.org/plant_sciences">RDM Kit plant domain</a> as well as 
-                the <a href="https://rdmkit.elixir-europe.org/plant_phenomics_assembly"plant phenomic tool assembly</a></li>
-        <li>Databases such as <a href="http://www.phis.inra.fr/">PHIS</a>, <a href="https://urgi.versailles.inra.fr/gnpis">GnpIS</a>, ...</li>
-        <li>File archives and in particular ISA-MIAPPE</li>
-        <li>the <a href="https://brapi.org">Breeding API</a> web services</li>
+  <li>
+    MIAPPE is a key element in the <a href="https://rdmkit.elixir-europe.org/plant_sciences">RDM Kit plant domain</a> as well
+    as the <a href="https://rdmkit.elixir-europe.org/plant_phenomics_assembly">plant phenomic tool assembly</a>
+  </li>
+  <li>Databases such as <a href="http://www.phis.inra.fr/">PHIS</a>, <a href="https://urgi.versailles.inra.fr/gnpis">GnpIS</a>, ...</li>
+  <li>File archives and in particular ISA-MIAPPE</li>
+  <li>the <a href="https://brapi.org">Breeding API</a> web services</li>
 </ul>
  
