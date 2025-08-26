@@ -11,61 +11,120 @@ order: 1
 	See the <a href="https://www.miappe.org/support/">support page</a> for full informations
 	<ul>
 		<li> Quick <a href="https://www.miappe.org/overview/">overview</a> of MIAPPE</li>
-		<li> <a href="https://tess.elixir-europe.org/materials/plant-phenotyping-data-managment-webinar-miappe">Webinar</a>, with video recording and slides introducing the fundamentals of MIAPPE</li>
+		<li>
+			<a href="https://tess.elixir-europe.org/materials/plant-phenotyping-data-managment-webinar-miappe">Webinar</a>,
+			with video recording and slides introducing the fundamentals of MIAPPE
+		</li>
 	<li><b><a href="https://github.com/MIAPPE/MIAPPE">Latest specifications</a></b>
 		<ul>
 			<li><a href="https://github.com/MIAPPE/MIAPPE/blob/master/MIAPPE_diagram.svg">data model</a> overview </li>
 			<li><a href="https://github.com/MIAPPE/MIAPPE">field list</a> with descriptions and examples in 
 				<a href="https://github.com/MIAPPE/MIAPPE/blob/master/MIAPPE_Checklist_Data_Model.tsv">tsv</a>,  
 				<a href="https://github.com/MIAPPE/MIAPPE/blob/master/MIAPPE_Checklist_Data_Model.pdf">PDF</a> and
-				<a href="https://github.com/MIAPPE/MIAPPE/raw/refs/heads/master/MIAPPE_Checklist_Data_Model.xlsx">Excel</a> format.</li>
+				<a href="https://github.com/MIAPPE/MIAPPE/raw/refs/heads/master/MIAPPE_Checklist_Data_Model.xlsx">Excel</a>
+				format.
+			</li>
 		</ul>
-	<li>Training and exchange <a href="https://github.com/MIAPPE/MIAPPE/tree/master/MIAPPE_Checklist-Data-Model-v1.1/MIAPPE_templates">templates</a></li>
-	<li><a href="https://github.com/MIAPPE/MIAPPE/tree/master/MIAPPE_Checklist-Data-Model-v1.1/MIAPPE_mapping">Mapping</a> between MIAPPE and other standards (<a href="https://isa-tools.org:">ISA-Tools</a> , <a href="https://brapi.docs.apiary.io/#">Breeding API (BrAPI)</a>)</li>
+	<li>Training and exchange <a href="https://github.com/MIAPPE/MIAPPE/tree/master/Templates">templates</a></li>
+	<li>
+		<a href="https://github.com/MIAPPE/MIAPPE/blob/master/Mapping/MIAPPE_Checklist_Mapping.tsv">Mapping</a> between MIAPPE
+		and other standards (<a href="https://isa-tools.org:">ISA-Tools</a>,
+		<a href="https://brapi.org/">Breeding API (BrAPI)</a>)
+	</li>
 	</ul>
 	
-        <h3>About MIAPPE</h3>
-	<p>MIAPPE is an open, community driven, data standard designed to harmonize data from plant phenotyping experiments. 
-		MIAPPE provides a specification including a checklist and a data model of metadata required to adequately describe plant phenotyping experiments. 
-		You can have a quick <a href="https://www.miappe.org/overview/">overview</a> or go the the primer section below.
-		Those specifications are implemented in several tools, databases and file templates and exchange formats that allow to   
-		validate, store and disseminate MIAPPE-compliant data.  
-		We welcome contributions from anyone interested in plant phenotyping data, inluding linked data.</p>
+    <h3>About MIAPPE</h3>
+	<p>MIAPPE is an open and community-driven data standard designed to harmonize data from plant phenotyping experiments. 
+		MIAPPE provides a specification including a checklist and a data model of metadata required to adequately describe
+		plant phenotyping experiments. You can have a quick <a href="https://www.miappe.org/overview/">overview</a> or go the
+		primer section below. Those specifications are implemented in several tools, databases and file templates and exchange
+		formats that allow to validate, store and disseminate MIAPPE-compliant data. We welcome contributions from anyone
+		interested in plant phenotyping data, inluding linked data.
+	</p>
 	<p>Development of MIAPPE is an open process, 
 		so if you would like to contribute by commenting, reviewing or participating to the ongoing development, 
 		please let us know via the MIAPPE mailing list. </p>
 		
 	<h5>Mailing list registration</h5>
 	<p>
-		You can subscribe to the <a href="https://mail.elixir-europe.org/mailman/listinfo/miappe_elixir-europe.org">MIAPPE mailing list</a>
-		to join the community or simply get the latest informations. 
+		You can subscribe to the
+		<a href="https://mail.elixir-europe.org/mailman/listinfo/miappe_elixir-europe.org">MIAPPE mailing list</a>
+		to join the community or simply get the latest information. 
 	</p>
 		
 
 	<h3>Background</h3>
 
-	<p>Plant phenotyping data is diverse, dispersed and increasingly plentiful owing to the application of new automated techniques.  While various initiatives have explored how to describe plant traits (e.g. the <a href="http://browser.planteome.org/amigo/term/TO:0000387#display-lineage-tab">Plant Trait Ontology</a>) and phenotypes, description of the experimental design that provides the context for phenotypic observations is not well-standardized.   A basic description of the materials used and the experiment performed is needed to support data discovery and data mining applications.  MIAPPE – the Minimal Information About a Plant Phenotyping Experiment – is in development to address these needs.</p>
-  <p>MIAPPE is a <a href="http://www.nature.com/nbt/journal/v26/n8/full/nbt.1411.html">Minimum Information (MI)</a> standard for plant phenotyping.  It defines a list of attributes that might be necessary to fully describe a phenotyping experiment, following <a href="http://fged.org/projects/miame/">the model originally established for microarray data</a>. Not all of the elements listed in an MI must be reported in each case. An MI document should rather be considered as a checklist, and consulted by a person describing or depositing the data to ensure the inclusion of all important data characteristics, i.e. what is meaningful for the interpretation and potential replication of the research.</p>
+	<p>
+		Plant phenotyping data is diverse, dispersed and increasingly plentiful owing to the application of new automated
+		techniques.  While various initiatives have explored how to describe plant traits (e.g. the
+		<a href="https://browser.planteome.org/amigo/term/TO:0000387#display-lineage-tab">Plant Trait Ontology</a>) and
+		phenotypes, description of the experimental design that provides the context for phenotypic observations is not
+		well-standardized. A basic description of the materials used and the experiment performed is needed to support data
+		discovery and data mining applications. MIAPPE – the Minimal Information About a Plant Phenotyping Experiment – is in
+		development to address these needs.
+	</p>
+  	<p>
+		MIAPPE is a <a href="https://www.nature.com/nbt/journal/v26/n8/full/nbt.1411.html">Minimum Information (MI)</a>
+		standard for plant phenotyping.  It defines a list of attributes that might be necessary to fully describe a
+		phenotyping experiment, following <a href="https://www.fged.org/projects/miame">the model originally established for
+		microarray data</a>. Not all of the elements listed in an MI must be reported in each case. An MI document should
+		rather be considered as a checklist, and consulted by a person describing or depositing the data to ensure the
+		inclusion of all important data characteristics, i.e. what is meaningful for the interpretation and potential
+		replication of the research.
+	</p>
  
-<p>MIAPPE is a logical standard - but there are specific implementations of tools designed to support its use and application, for example, in the <a hef="http://isa-tools.org">ISA-tools</a> framework. We are working with the developers of the <a href="http://www.brapi.org">Plant Breeding API</a> (BRAPI) to ensure the compliance of BRAPI with the MIAPPE standard, and to coordinate future developments.</p>
- <p>MIAPPE was originally been developed in the context of the transPLANT, European Plant Phenotyping Network and ELIXIR-EXCELERATE projects, but we are keen to work with anyone interested in contributing to, reviewing or using the standard, or developing new tools.<p>
+	<p>
+		MIAPPE is a logical standard - but there are specific implementations of tools designed to support its use and
+		application, for example, in the <a href="https://isa-tools.org">ISA-tools</a> framework. We are working with the
+		developers of the <a href="https://www.brapi.org">Plant Breeding API</a> (BRAPI) to ensure the compliance of BRAPI with
+		the MIAPPE standard, and to coordinate future developments.
+	</p>
+ 	<p>
+		MIAPPE was originally developed in the context of the transPLANT, European Plant Phenotyping Network and
+		ELIXIR-EXCELERATE projects, but we are keen to work with anyone interested in contributing to, reviewing or using the
+		standard, or developing new tools.
+	<p>
 
 <h3>Releases</h3>
+<h4>MIAPPE v1.2, October 2024</h4>
+<p>
+	<a href="https://github.com/MIAPPE/MIAPPE/blob/master/MIAPPE_Checklist_Data_Model.pdf">MIAPPE version 1.2</a> has some
+	additions as well as minor improvements and clarifications. It remains fully compatible with MIAPPE v1.1. A summary of
+	changes is available in the <a href="https://github.com/MIAPPE/MIAPPE/blob/master/RELEASE-NOTES.md">Release Notes</a>.
+</p>
+
 <h4>MIAPPE v1.1, January 2019</h4>
-	<p><a href="https://github.com/MIAPPE/MIAPPE/tree/master/MIAPPE_Checklist-Data-Model-v1.1">MIAPPE version 1.1</a>,released on 10th January 2019, 
-		relied on two requests for comments.  Major developments over v1.0 include:</p> 
+	<p>
+		<a href="https://github.com/MIAPPE/MIAPPE/tree/v1.1/MIAPPE_Checklist-Data-Model-v1.1">MIAPPE version 1.1</a>,
+		released on 10th January 2019, relied on two requests for comments.  Major developments over v1.0 include:
+	</p> 
 	<ul>
 	<li>The extension of MIAPPE’s scope to accommodate woody plants as an additional use-case.</li>
-	<li>The specification of a data model for MIAPPE, to facilitate its implementation in various formats and enable its automatic validation.</li>
-	<li>Compatibility of the MIAPPE logical standard with common frameworks for representing these data types, namely <a href="https://isa-tools.org:">ISA-Tools</a> and the <a href="https://brapi.docs.apiary.io/#">Breeding API (BrAPI)</a>.</li>
+	<li>
+		The specification of a data model for MIAPPE, to facilitate its implementation in various formats and enable its
+		automatic validation.
+	</li>
+	<li>
+		Compatibility of the MIAPPE logical standard with common frameworks for representing these data types, namely
+		<a href="https://isa-tools.org">ISA-Tools</a> and the
+		<a href="https://brapi.org">Breeding API (BrAPI)</a>.
+	</li>
 	<li>The enrichment of MIAPPE, with the provision of clear definitions and examples for all fields.</li>
 	</ul>
-	<p>A <a href="https://nph.onlinelibrary.wiley.com/doi/abs/10.1111/nph.16544">new paper</a> describing the application of MIAPPE v1.1 to a variety of use cases has just been published in the New Phytologist.
-		Meanwhile, improvements can be suggested via miappe-feedback@ebi.ac.uk.  Work is now commencing on the next version of MIAPPE, v2.0.  Development is at an early stage and all contributions are welcome.
+	<p>
+		A <a href="https://nph.onlinelibrary.wiley.com/doi/abs/10.1111/nph.16544">new paper</a> describing the application of
+		MIAPPE v1.1 to a variety of use cases was published in the New Phytologist.
+		Meanwhile, improvements can be suggested via <a href="https://github.com/MIAPPE/MIAPPE/issues">GitHub Issues</a>.
+		Work is now commencing on the next version of MIAPPE, v2.0.  Development is at an early stage and all contributions
+		are welcome.
 	</p> 	
 <h4>MIAPPE v1, July 2016</h4>
-	<p>The <a href="https://github.com/MIAPPE/MIAPPE/tree/master/MIAPPE_Checklist-v1.0">initial version of MIAPPE</a> has been designed as a checklist, 
-		following the approach of international deposition databases. It is now extended by MIAPPE v1.1.</p>
+	<p>
+		The <a href="https://github.com/MIAPPE/MIAPPE/tree/v1.1/MIAPPE_Checklist-v1.0">initial version of MIAPPE</a> has
+		been designed as a checklist, following the approach of international deposition databases. It is now extended by
+		MIAPPE v1.1.
+	</p>
 
   {% comment %}
   DISABLED
